@@ -1,0 +1,191 @@
+@charset "utf-8"; * { 
+
+    margin: 0;     
+    padding: 0; 
+} 
+ 
+body {    
+    
+    background-image: url('Cinema-1.jpg');
+    margin: 0;     
+    font-family: Arial, Helvetica, sans-serif;     
+    font-size: 17px;    
+    color: #080808; 
+    line-height: 1.6em;
+   
+}
+
+.col {     
+    float: left;     
+    width: 30%;     
+    padding: 8px;     
+    box-sizing: border-box; 
+} 
+.Hotel{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    
+    
+    
+}
+.velozes{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    
+
+   
+  
+}
+.vizinhos{
+
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;  
+
+}
+img {
+
+width: 200px;
+                           
+border-style: solid;
+border-color: rgb(8, 8, 8);
+border-width: 3px;    
+float: left;     
+width: 30%;     
+padding: 8px; 
+margin: 2px;
+border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    border-style:solid;
+    border-color: rgb(5, 5, 5);
+    border-width: 2px;
+    border-radius: 30px;
+}
+
+.price-box{
+    background: rgb(0, 0, 0);
+    color: black;
+    list-style-type: none;
+    border: 1px solid rgb(234, 255, 0);
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.price-box .header.header-green {
+    background: 10px;
+}
+
+.prince-box li{
+    padding: 10px;
+    
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+button:hover{
+    color: rgb(241, 15, 241);
+    background-color: #f5bdde;
+
+}
+
+h2 {
+    text-align: center;
+    border-radius: 30px;
+}
+.col {     
+    
+    width: 30%;    
+    padding: 8px;    
+    box-sizing: border-box; 
+    display: inline-block;
+    
+}
+.price-box {     
+    background: #fff;    
+    color: #555;     
+    list-style-type: none;     
+    border: 1px solid #555;     
+    margin: 0;     
+    padding: 0; 
+    border-radius: 30px;
+
+
+} 
+.price-box .header {     
+    background-color: #111;     
+    color: rgb(240, 87, 87);     
+    font-size: 25px;
+    border-radius: 30px;
+} 
+.price-box .header.header-green {     
+    background: #fa8f8f; 
+} 
+.price-box li {     
+    padding: 20px;     
+    border-bottom: 20px solid #eee;     
+    text-align: center;
+    border-radius: 30px;
+} 
+.btn {     
+    background-color: #4caf50;     
+    border: none;     
+    color: #fff;     
+    padding: 10px 15px;     
+    text-align: center;     
+    text-decoration: none;     
+    font-size: 18px;
+    border-radius: 30px;
+    
+}
+.price-box:hover{
+    color: bisque;
+}
+.price-box .header:hover{
+    color: bisque;
+}
+.btn:hover {
+    color: bisque;
+}
+.price-box .header.header-green:hover {
+    color: bisque;
+}
+
+.rodape {
+align-items: center;
+display: flex;
+
+}
+
+
+
+
+
+
+ 
+    
+    
+
+
+
+ 
+ 
+ 
+ 
+ 
